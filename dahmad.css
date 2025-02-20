@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  header {
+    width: 100vw;
+    background-image: url(backgroundImg.jpg);
+    height: 80vh;
+    background-size: cover;
+  
+
+    .left-nav {
+      width:34vw;
+      background-color: red;
+      display: inline-block;
+    }
+    
+    .logo {
+      width:30vw;
+      display: inline-block;
+    }
+    
+    .right-nav {
+      
+      background-color: rgb(58, 9, 122);
+      width:34vw;
+      display: inline-block;
+    }
+  }
+}
+
+.left-nav {
+  background-color: aqua;
+}
