@@ -1,60 +1,71 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(249, 226, 198); 
+  background-color: rgb(249, 226, 198);
 
   header {
     width: 100vw;
     background-image: url(backgroundImg.jpg);
     height: 80vh;
     background-size: cover;
-  
 
-    .left-nav {
-      width:30vw;
-      display: inline-block;
-      ul{
-        padding-left: 0;
-      }
-      li{
+    nav {
+      
+      .left-nav {
+        width: 30vw;
         display: inline-block;
-        text-indent: 25px;
-        a:hover{
-          color: rgb(249, 226, 198); 
-          text-decoration: none;
+
+        ul {
+          padding-left: 0;
         }
-        a{
-          text-decoration: none;
-          color: rgb(249, 226, 198); 
+
+        li {
+          display: inline-block;
+          text-indent: 25px;
+
+          a:hover {
+            color: rgb(249, 226, 198);
+            text-decoration: none;
+          }
+
+          a {
+            text-decoration: none;
+            color: rgb(249, 226, 198);
+          }
         }
-        }
-  
+
       }
+
       .logo {
-      width:30vw;
-      display: inline-block;
-      text-align: center;
-    }
-    
-    .right-nav {
-      width:30vw;
-      display: inline-block;
-      ul{
-        padding-left: 0;
-      }
-      li{
+        width: 30vw;
         display: inline-block;
-        text-indent: 25px;
+        text-align: center;
       }
-      a .h :hover{
-        color: rgb(249, 226, 198); 
+
+      .right-nav {
+        width: 30vw;
+        display: inline-block;
+
+        ul {
+          padding-left: 0;
+        }
+
+        li {
+          display: inline-block;
+          text-indent: 25px;
+        }
+
+        a .h :hover {
+          color: rgb(249, 226, 198);
+        }
+
+        a {
+          text-decoration: none;
+          color: rgb(249, 226, 198);
+        }
       }
-      a{
-        text-decoration: none;
-        color: rgb(249, 226, 198); 
-      }
-    } 
+    }
   }
-  
- 
+
+
 }
