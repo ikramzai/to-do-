@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(249, 226, 198); 
+
   header {
     width: 100vw;
     background-image: url(backgroundImg.jpg);
@@ -9,25 +11,50 @@ body {
   
 
     .left-nav {
-      width:34vw;
-      background-color: red;
-      display: inline-block;
-    }
-    
-    .logo {
       width:30vw;
       display: inline-block;
+      ul{
+        padding-left: 0;
+      }
+      li{
+        display: inline-block;
+        text-indent: 25px;
+        a:hover{
+          color: rgb(249, 226, 198); 
+          text-decoration: none;
+        }
+        a{
+          text-decoration: none;
+          color: rgb(249, 226, 198); 
+        }
+        }
+  
+      }
+      .logo {
+      width:30vw;
+      display: inline-block;
+      text-align: center;
     }
     
     .right-nav {
-      
-      background-color: rgb(58, 9, 122);
-      width:34vw;
+      width:30vw;
       display: inline-block;
-    }
+      ul{
+        padding-left: 0;
+      }
+      li{
+        display: inline-block;
+        text-indent: 25px;
+      }
+      a .h :hover{
+        color: rgb(249, 226, 198); 
+      }
+      a{
+        text-decoration: none;
+        color: rgb(249, 226, 198); 
+      }
+    } 
   }
-}
-
-.left-nav {
-  background-color: aqua;
+  
+ 
 }
