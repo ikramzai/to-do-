@@ -9,6 +9,8 @@ body {
     width: 100vw;
     background-size: cover;
     background-position: center;
+    background-color: rgba( 0, 0, 0, 0.5);
+    background-blend-mode: multiply;
 
     nav {
       display: flex;
@@ -29,13 +31,13 @@ body {
             gap: 5px;
 
             a:hover {
-              color: #754027;
+              color: white
               text-decoration: none;
             }
 
             a {
               text-decoration: none;
-              color: #754027;
+              color:white
             }
           }
         }
@@ -59,12 +61,12 @@ body {
           gap: 5px;
 
           a .h :hover {
-            color: #754027;
+            color:white
           }
 
           a {
             text-decoration: none;
-            color: #754027;
+            color:white
           }
         }
       }
@@ -84,6 +86,7 @@ body {
     align-items: center;
     height: 20vh;
   }
+  
 
   button {
     background-color: #754027;
@@ -103,4 +106,14 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
+}
+.left{
+  position: relative;
+  top: 200px;
+  
+}
+.right{
+  float: right;
+  position: relative;
+  top: 200px;
 }
